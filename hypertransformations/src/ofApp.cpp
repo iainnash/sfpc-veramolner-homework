@@ -19,8 +19,8 @@ const float size_div = 3;
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofNoFill();
-    ofBackground(255);
-    ofSetColor(0);
+    ofBackground(228);
+    ofSetColor(82);
     
     int screenWidth = ofGetWidth();
     ofSeedRandom(mouseX * 4000);
